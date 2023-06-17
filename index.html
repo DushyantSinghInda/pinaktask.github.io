@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.main {
+			background: rgba(251, 197, 49,1.0);
+			width: 100vw;
+			height: 75vh;
+			padding: 10px;
+		}
+		.top {
+			text-align: center;
+		}
+		.text {
+			margin-top: 50px;
+			color: white;
+		}
+		.smile {
+			margin: 20px auto;
+			width: 75px;
+			height: 75px;
+			background: rgba(45, 52, 54,0.6);
+			border-radius: 50%;
+			padding: 14px;
+			font-size: 35px;
+			color: rgba(0, 0, 0, 0.5);
+		}
+		.bottom {
+			width: 100vw;
+			height: 25vh;
+			background: rgba(252, 66, 123,1.0);
+			position: relative;
+		}
+		.bottom::before {
+			content: '';
+			position: absolute;
+			width: 0px;
+			height: 0px;
+			border-left: 100px solid transparent;
+			border-right: 100px solid transparent;
+			border-top: 30px solid rgba(251, 197, 49,1.0);
+			top: 0;
+			left: calc(50% - 100px);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="top">
+			<h1 class="text">Pinak Idea Lab</h1>
+			<div class="smile">
+				:)
+			</div>
+		</div>
+		
+	</div>
+	<div class="bottom">
+			
+	</div>
+</body>
+</html>
